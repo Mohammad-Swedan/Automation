@@ -87,5 +87,4 @@ async function automate() {
   }
 }
 
-// Run every 10 seconds
-setInterval(automate, 10000);
+automate();

@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: "18"
 
-      - name: Install node-fetch
-        run: npm install node-fetch
+      - name: Install dependencies
+        run: npm install
 
       - name: Run automation script
         run: node index.js
